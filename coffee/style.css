@@ -4,7 +4,7 @@ a {
 }
 
 body {
-	font-style: times, serif;
+	font: times, serif;
 	margin: 0px;
 	text-align: center;
 }
@@ -12,29 +12,52 @@ body {
 footer {
 	background: #230a02;
 	color: #cfba9d;
-	font: serif;
+	font: .8em serif;
 	height: 110px;
 	line-height: .25em;
+	padding: 20px;
+	vertical-align: bottom;
+}
+
+h2 {
+	font: sans-serif;
 }
 
 header {
 	background: url("./img/beans.jpg") no-repeat;
 	background-size: 100%;
+	margin:0px;
 }
 
-li {
+nav li {
 	color: #cfba9d;
 	display: inline-block;
-	font: 1.25em serif;
+	font: 1em serif;
+	padding: 5px 10px 8px 10px;
 }
 
 nav {
-	background: #230a02;
+	background: rgba(35, 10, 2, .8);
+	bottom: 15px;
 	height: 30px;
+	position: relative;
+}
+
+nav ul {
+	margin: 0px;
+}
+
+p {
+	font: serif;
 }
 
 section {
 	display: inline-block;
-	padding: 1em;
-	width: 40%;
+	font: serif;
+	padding: 1em 5%;
+	width: 30%;
+}
+
+section p {
+	font: serif;
 }
