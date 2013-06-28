@@ -27,8 +27,22 @@
   font-weight: normal;
   font-style: normal; }
 
-#top-nav {
-  font: 18px/27px 'LeagueGothicRegular', Arial, sans-serif; }
+#top-nav, #sidebar, footer {
+  font: bold 1em Arial, sans-serif; }
+
+article {
+  font: 1em Arial, sans-serif; }
+
+.date {
+  font: bold .8em Arial, sans-serif; }
 
 h1 {
-  font: 18px/27px 'LeagueGothicCondensedRegular', Arial, sans-serif; }
+  font: 2em 'LeagueGothicRegular', Arial, sans-serif;
+  text-transform: uppercase; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+#logo {
+  float: left; }

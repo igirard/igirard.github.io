@@ -1,13 +1,35 @@
-// styling for blog demo site for SIB lab project
+//// styling for blog demo site for SIB lab project
+//// isaac@isaacgirard.com - 2013.06.28
 
-// import web-font css
+//// import web-font css
 @import '../../type/_fonts.scss';
 
-// text styling
-#top-nav {
-    font: 18px/27px 'LeagueGothicRegular', Arial, sans-serif;
+
+//// text styling
+#top-nav, #sidebar, footer {
+    font: bold 1em Arial, sans-serif;
+}
+
+article {
+    font: 1em Arial, sans-serif;
+}
+
+.date {
+    font: bold .8em Arial, sans-serif;
 }
 
 h1 {
-    font: 18px/27px 'LeagueGothicCondensedRegular', Arial, sans-serif;
+    font: 2em 'LeagueGothicRegular', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+//// element positioning
+#logo {
+    float: left;
 }
