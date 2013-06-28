@@ -5,13 +5,23 @@
 @import '../../type/_fonts.scss';
 
 
-//// text styling
-#top-nav, #sidebar, footer {
-    font: bold 1em Arial, sans-serif;
+//// media queries
+//@media (max-width: 320px)
+
+
+//// set baseline font
+html {
+    font-size: 16px;
+    font-style: Arial, sans-serif;
+}
+body {
+    font-size: 62.5%; /* 1em = 10px */
 }
 
-article {
-    font: 1em Arial, sans-serif;
+
+//// text styling
+#top-nav, #sidebar, footer {
+    font: 100% bold Arial, sans-serif;
 }
 
 .date {

@@ -27,11 +27,16 @@
   font-weight: normal;
   font-style: normal; }
 
-#top-nav, #sidebar, footer {
-  font: bold 1em Arial, sans-serif; }
+html {
+  font-size: 16px;
+  font-style: Arial, sans-serif; }
 
-article {
-  font: 1em Arial, sans-serif; }
+body {
+  font-size: 62.5%;
+  /* 1em = 10px */ }
+
+#top-nav, #sidebar, footer {
+  font: 100% bold Arial, sans-serif; }
 
 .date {
   font: bold .8em Arial, sans-serif; }
