@@ -1,0 +1,13 @@
+// styling for blog demo site for SIB lab project
+
+// import web-font css
+@import '../../type/_fonts.scss';
+
+// text styling
+#top-nav {
+    font: 18px/27px 'LeagueGothicRegular', Arial, sans-serif;
+}
+
+h1 {
+    font: 18px/27px 'LeagueGothicCondensedRegular', Arial, sans-serif;
+}
