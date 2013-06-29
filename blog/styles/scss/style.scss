@@ -20,12 +20,12 @@ body {
 
 
 //// text styling
-#top-nav, #sidebar, footer {
-    font: 100% bold Arial, sans-serif;
+.menu, .sidebar, footer {
+    font-weight: bold;
 }
 
 .date {
-    font: bold .8em Arial, sans-serif;
+    font: bold 1em Arial, sans-serif;
 }
 
 h1 {
@@ -40,6 +40,13 @@ a {
 
 
 //// element positioning
-#logo {
-    float: left;
+// .logo {
+//     float: left;
+// }
+
+
+//// page layout
+.site {
+    margin: 40px auto;
+    width: 90%;
 }
