@@ -4,10 +4,22 @@
 //// import web-font css
 @import '../../type/_fonts.scss';
 
+//// media query variables
+$break-small: 320px;
+$break-large: 1024px;
 
 //// media queries
-//@media (max-width: 320px)
-
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media only screen and (max-width: $break-small) { @content; }
+  }
+  @else if $media == medium-screens {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) { @content; }
+  }
+  @else if $media == wide-screens {
+    @media only screen and (min-width: $break-large) { @content; }
+  }
+}
 
 //// set baseline font
 html {
@@ -40,13 +52,20 @@ a {
 
 
 //// element positioning
-// .logo {
-//     float: left;
-// }
+.menu {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+        
+        li {
+            display: inline-block;
+            margin: 5px 10px;
+        }
+}
 
 
 //// page layout
 .site {
-    margin: 40px auto;
+    margin: 10px 40px;
     width: 90%;
 }
