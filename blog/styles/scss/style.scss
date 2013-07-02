@@ -5,23 +5,25 @@
 @import '../../type/_fonts.scss';
 
 //// media query variables
-$break-small: 320px;
+$break-small: 400px;
 $break-large: 1024px;
 
 //// media queries
-@mixin respond-to($media) {
-  @if $media == handhelds {
-    @media only screen and (max-width: $break-small) { @content; }
-  }
-  @else if $media == medium-screens {
-    @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) { @content; }
-  }
-  @else if $media == wide-screens {
-    @media only screen and (min-width: $break-large) { @content; }
-  }
-}
+// @mixin respond-to($media) {
+//   @if $media == handhelds {
+//     @media only screen and (max-width: $break-small) { @content; }
+//   }
+//   @else if $media == medium-screens {
+//     @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) { @content; }
+//   }
+//   @else if $media == wide-screens {
+//     @media only screen and (min-width: $break-large) { @content; }
+//   }
+// }
 
-//// set baseline font
+///////////////////////////
+//// set baseline font ////
+///////////////////////////
 html {
     font-size: 16px;
     font-style: Arial, sans-serif;
@@ -31,7 +33,9 @@ body {
 }
 
 
-//// text styling
+//////////////////////
+//// text styling ////
+//////////////////////
 .menu, .sidebar, footer {
     font-weight: bold;
 }
@@ -41,7 +45,7 @@ body {
 }
 
 h1 {
-    font: 2em 'LeagueGothicRegular', Arial, sans-serif;
+    font: 2.5em 'LeagueGothicRegular', Arial, sans-serif;
     text-transform: uppercase;
 }
 
@@ -50,22 +54,26 @@ a {
     text-decoration: none;
 }
 
+/////////////////////
+//// page layout ////
+/////////////////////
+.site {
+    margin: 10px 40px;
+    width: 90%;
+}
 
-//// element positioning
-.menu {
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
+@media only screen and (max-width: $break-small) {
+    .menu {
+        width: 100%;
+        margin: 0 auto;
         
         li {
             display: inline-block;
             margin: 5px 10px;
         }
-}
+        ul {
+            text-align: center;
+        }
+    }
 
-
-//// page layout
-.site {
-    margin: 10px 40px;
-    width: 90%;
 }
