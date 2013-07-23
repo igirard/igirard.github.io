@@ -6,7 +6,7 @@
 */
 /*
  * _type.scss
- * partial containing type styles for isaacgirard.com
+ * partial containing type styles (face/size/color) for isaacgirard.com
  * July 2013
  * isaac@isaacgirard.com
 */
@@ -20,7 +20,8 @@ body {
 
 h1 {
   color: white;
-  font-size: 5em; }
+  font-family: 'Yellowtail', cursive;
+  font-size: 8em; }
 
 /*
  * _layout.scss
@@ -32,10 +33,19 @@ header {
   background: gray;
   height: 380px;
   width: 100%; }
+  header h1, header h2 {
+    margin: 0;
+    text-align: center; }
+  header h1 {
+    padding-top: 1em; }
 
 .social_links {
   list-style-type: none;
+  margin: 0;
+  padding: 6em 0 0 0;
   text-align: center; }
+  .social_links li {
+    display: inline; }
 
 .headshot {
   background: black;
@@ -44,5 +54,13 @@ header {
   height: 260px;
   margin: 0 auto;
   position: relative;
-  top: 130px;
+  top: 4em;
   width: 260px; }
+
+section {
+  max-width: 100%; }
+
+article {
+  float: left;
+  padding: 0 5%;
+  width: 30%; }

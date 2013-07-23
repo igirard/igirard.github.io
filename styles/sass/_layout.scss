@@ -9,11 +9,26 @@ header {
 	background: gray;
 	height: 380px;
 	width: 100%;
+
+	h1, h2 {
+		margin: 0;
+		text-align: center;
+	}
+
+	h1 {
+		padding-top: 1em;
+	}
 }
 
 .social_links {
 	list-style-type: none;
+	margin: 0;
+	padding: 6em 0 0 0;
 	text-align: center;
+
+	li {
+		display: inline;
+	}
 }
 
 .headshot {
@@ -23,6 +38,16 @@ header {
 	height: 260px;
 	margin: 0 auto;
 	position: relative;
-	top: 130px;
+	top: 4em;
 	width: 260px;
+}
+
+section {
+	max-width: 100%;
+}
+
+article {
+	float: left;
+	padding: 0 5%;
+	width: 30%;
 }

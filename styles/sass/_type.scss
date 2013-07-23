@@ -1,6 +1,6 @@
 /*
  * _type.scss
- * partial containing type styles for isaacgirard.com
+ * partial containing type styles (face/size/color) for isaacgirard.com
  * July 2013
  * isaac@isaacgirard.com
 */
@@ -16,5 +16,6 @@ body {
 
 h1 {
 	color: white;
-	font-size: 5em;
+	font-family: 'Yellowtail', cursive;
+	font-size: 8em;
 }
