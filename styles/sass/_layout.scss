@@ -1,0 +1,28 @@
+/*
+ * _layout.scss
+ * partial containing layout styles for isaacgirard.com
+ * July 2013
+ * isaac@isaacgirard.com
+*/
+
+header {
+	background: gray;
+	height: 380px;
+	width: 100%;
+}
+
+.social_links {
+	list-style-type: none;
+	text-align: center;
+}
+
+.headshot {
+	background: black;
+	border: 1em solid white;
+	border-radius: 100%;
+	height: 260px;
+	margin: 0 auto;
+	position: relative;
+	top: 130px;
+	width: 260px;
+}
