@@ -6,16 +6,27 @@
 */
 
 html {
-    font-size: 16px;
-    font-style: Arial, sans-serif;
+	font-size: 16px;
+	font-style: Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 }
 
 body {
     font-size: 62.5%; /* 1em = 10px */
 }
 
-h1 {
-	color: white;
-	font-family: 'Yellowtail', cursive;
-	font-size: 8em;
+header {
+	h1 {
+		color: white;
+		font-family: 'Leckerli One', cursive;
+		font-size: 8em;
+		font-weight: lighter;
+		text-shadow: 1px 0 1px rgba(0,0,0,0.2);
+	}
+
+	h2 {
+		color: white;
+		text-shadow: 1px 0 1px rgba(0,0,0,0.2);
+	}
 }

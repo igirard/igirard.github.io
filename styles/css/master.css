@@ -12,16 +12,23 @@
 */
 html {
   font-size: 16px;
-  font-style: Arial, sans-serif; }
+  font-style: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
 
 body {
   font-size: 62.5%;
   /* 1em = 10px */ }
 
-h1 {
+header h1 {
   color: white;
-  font-family: 'Yellowtail', cursive;
-  font-size: 8em; }
+  font-family: 'Leckerli One', cursive;
+  font-size: 8em;
+  font-weight: lighter;
+  text-shadow: 1px 0 1px rgba(0, 0, 0, 0.2); }
+header h2 {
+  color: white;
+  text-shadow: 1px 0 1px rgba(0, 0, 0, 0.2); }
 
 /*
  * _layout.scss
@@ -32,17 +39,18 @@ h1 {
 header {
   background: gray;
   height: 380px;
+  margin-bottom: 300px;
   width: 100%; }
   header h1, header h2 {
     margin: 0;
     text-align: center; }
   header h1 {
-    padding-top: 1em; }
+    padding-top: .5em; }
 
 .social_links {
   list-style-type: none;
   margin: 0;
-  padding: 6em 0 0 0;
+  padding: 3em 0 1em 0;
   text-align: center; }
   .social_links li {
     display: inline; }
@@ -54,13 +62,25 @@ header {
   height: 260px;
   margin: 0 auto;
   position: relative;
-  top: 4em;
+  top: 2em;
   width: 260px; }
 
 section {
-  max-width: 100%; }
+  margin: 0 auto;
+  width: 960px; }
 
 article {
   float: left;
   padding: 0 5%;
-  width: 30%; }
+  margin: 0 auto;
+  width: 320px; }
+
+/*
+ * _mobile.scss
+ * partial containing mobile breakpoints and styles for isaacgirard.com
+ * July 2013
+ * isaac@isaacgirard.com
+*/
+@media mobile {
+  article {
+    float: none; } }
