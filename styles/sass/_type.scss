@@ -15,9 +15,9 @@ $icon_color: #2790B0;
 @font-face {
 	font-family: 'rondo';
 	src: url('../../fonts/rondo/rondo.eot?#') format('eot'),
-		url('../../fonts/rondo/rondo.svg#rondo') format('svg'),
-		url('../../fonts/rondo/rondo.woff') format('woff'),
-		url('../../fonts/rondo/rondo.ttf') format('truetype');
+	url('../../fonts/rondo/rondo.svg#rondo') format('svg'),
+	url('../../fonts/rondo/rondo.woff') format('woff'),
+	url('../../fonts/rondo/rondo.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -48,6 +48,9 @@ header {
 	}
 }
 
+article p, article ul {
+	font-size: 1.5em;
+}
 
 // social icons
 .social_links a {
@@ -66,7 +69,7 @@ header {
 	-webkit-font-feature-settings:"liga","dlig";-moz-font-feature-settings:"liga=1, dlig=1";-moz-font-feature-settings:"liga","dlig";-ms-font-feature-settings:"liga","dlig";-o-font-feature-settings:"liga","dlig";
 	font-feature-settings:"liga","dlig";
 	text-rendering:optimizeLegibility;
-	}
+}
 
 /* Icons */
 

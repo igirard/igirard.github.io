@@ -71,6 +71,10 @@ article {
 	padding: 0 5%;
 	margin: 0 auto;
 	width: 40%;
+
+	p:last-child {
+		padding-bottom: 40px;
+	}
 }
 
 footer {
