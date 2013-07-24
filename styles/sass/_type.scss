@@ -5,6 +5,10 @@
  * isaac@isaacgirard.com
 */
 
+// color variables
+$text_color: #F0D20B;
+
+// type styling
 html {
 	font-size: 16px;
 	font-style: Arial, sans-serif;
@@ -18,15 +22,15 @@ body {
 
 header {
 	h1 {
-		color: white;
+		color: $text_color;
 		font-family: 'Leckerli One', cursive;
 		font-size: 8em;
 		font-weight: lighter;
-		text-shadow: 1px 0 1px rgba(0,0,0,0.2);
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	}
 
 	h2 {
-		color: white;
-		text-shadow: 1px 0 1px rgba(0,0,0,0.2);
+		color: $text_color;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	}
 }
