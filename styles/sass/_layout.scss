@@ -72,7 +72,7 @@ article {
 	margin: 0 auto;
 	width: 40%;
 
-	p:last-child {
+	&:last-child {
 		padding-bottom: 40px;
 	}
 }
@@ -80,5 +80,5 @@ article {
 footer {
 	background: $header_color;
 	clear: both;
-	height: 20px;
+	height: 50px;
 }
