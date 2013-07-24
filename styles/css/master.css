@@ -68,14 +68,14 @@ header {
   width: 260px; }
 
 section {
-  margin: 0 auto;
-  width: 90%; }
+  margin: 140px auto 0 auto;
+  width: 960px; }
 
 article {
   float: left;
   padding: 0 5%;
   margin: 0 auto;
-  width: 320px; }
+  width: 40%; }
 
 /*
  * _mobile.scss
@@ -83,7 +83,7 @@ article {
  * July 2013
  * isaac@isaacgirard.com
 */
-@media screen and (max-width: 550px) {
+@media mobile, screen and (max-width: 550px) {
   /* phones */
   header {
     height: 50em; }
@@ -97,4 +97,8 @@ article {
 
   article {
     float: none;
-    margin: 0 auto; } }
+    margin: 0 auto;
+    width: 90%; } }
+@media mobile, screen and (max-width: 960px) {
+  section {
+    width: 90%; } }

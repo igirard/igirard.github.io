@@ -55,16 +55,13 @@ header {
 }
 
 section {
-	margin: 0 auto;
-	width: 90%;
+	margin: 140px auto 0 auto;
+	width: 960px;
 }
 
 article {
 	float: left;
 	padding: 0 5%;
 	margin: 0 auto;
-	width: 320px;
-
-	&:first-child {
-	}
+	width: 40%;
 }

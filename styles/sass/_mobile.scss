@@ -5,7 +5,7 @@
  * isaac@isaacgirard.com
 */
 
-@media screen and (max-width: 550px) {
+@media mobile, screen and (max-width: 550px) {
     /* phones */
 
 
@@ -27,5 +27,12 @@
 	article {
 		float: none;
 		margin: 0 auto;
+        width: 90%;
 	}
+}
+
+@media mobile, screen and (max-width: 960px) {
+    section {
+        width: 90%;
+    }
 }
