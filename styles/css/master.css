@@ -87,9 +87,13 @@ article {
   /* phones */
   header {
     height: 50em; }
-    header h1, header h2 {
+    header h1 {
+      line-height: .9em;
       margin: 0 auto;
       width: 350px; }
+    header h2 {
+      margin: 20px auto 0 auto;
+      width: 200px; }
 
   article {
     float: none;
