@@ -5,8 +5,20 @@
  * isaac@isaacgirard.com
 */
 
-@media mobile {
+@media screen and (max-width: 550px) {
+    /* phones */
+
+
+    header {
+    	height: 50em;
+
+    	h1 {
+    		width: 350px;
+    	}
+    }
+
 	article {
 		float: none;
+		margin: 0 auto;
 	}
 }
