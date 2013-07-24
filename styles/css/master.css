@@ -87,7 +87,8 @@ article {
   /* phones */
   header {
     height: 50em; }
-    header h1 {
+    header h1, header h2 {
+      margin: 0 auto;
       width: 350px; }
 
   article {
