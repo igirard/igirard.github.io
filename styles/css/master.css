@@ -32,11 +32,19 @@ header h1 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
 header h2 {
   color: #f0d20b;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8em;
+  font-weight: 400;
   padding-top: 10px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
 
-article p, article ul {
-  font-size: 1.5em; }
+article {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  font-weight: 400; }
+  article h1 {
+    font-size: 1.2em;
+    font-weight: 700; }
 
 .social_links a {
   color: #61bfdc;
@@ -193,7 +201,7 @@ body {
 
 header {
   background: #2790b0;
-  height: 41.5em;
+  height: 42em;
   width: 100%; }
   header h1, header h2 {
     margin: 0;
@@ -246,7 +254,7 @@ footer {
 @media mobile, screen and (max-width: 550px) {
   /* phones */
   header {
-    height: 49em; }
+    height: 49.5em; }
     header h1 {
       line-height: .9em;
       margin: 0 auto;
@@ -260,7 +268,7 @@ footer {
 
   article {
     float: none;
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
     width: 90%; } }
 @media mobile, screen and (max-width: 960px) {
   section {

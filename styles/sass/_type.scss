@@ -10,8 +10,10 @@
 $text_color: #F0D20B;
 $icon_color: #2790B0;
 
-//
-$bodyfont-family: 'Josefin Sans', sans-serif;
+// article font variables
+$article_font: 'Roboto', sans-serif;
+$article_title_weight: 700;
+$article_body_weight: 400;
 
 // social icon font
 @font-face {
@@ -45,14 +47,25 @@ header {
 
 	h2 {
 		color: $text_color;
+		font-family: $article_font;
+		font-size: 1.8em;
+		font-weight: $article_body_weight;
 		padding-top: 10px;
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	}
 }
 
-article p, article ul {
+article {
+	font-family: $article_font;
 	font-size: 1.5em;
+	font-weight: $article_body_weight;
+
+	h1 {
+		font-size: 1.2em;
+		font-weight: $article_title_weight;
+	}
 }
+
 
 // social icons
 .social_links a {
