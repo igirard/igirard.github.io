@@ -26,6 +26,13 @@ $article_body_weight: 400;
 	font-style: normal;
 }
 
+// common elements
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
 // type styling
 html {
 	font-size: 16px;
@@ -63,6 +70,10 @@ article {
 	h1 {
 		font-size: 1.2em;
 		font-weight: $article_title_weight;
+	}
+
+	a {
+		text-shadow: 1px 1px 0 lighten($icon_color,40%);
 	}
 }
 
