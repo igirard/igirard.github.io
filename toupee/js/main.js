@@ -1,6 +1,7 @@
 // Add new expense to list
-function addExpense() {
+function addExpense(e) {
 	if (event.type === 'click' || (event.type === 'keyup' && event.which === 13)) {
+		e.preventDefault();
 		var text = $("#new-text").val();
 		var date = $("#new-date").val();
 		var amount = $("#new-amount").val();
