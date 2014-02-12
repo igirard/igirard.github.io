@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(http://fonts.googleapis.com/css?family=Londrina+Sketch);
+/* Base import containing project variables and additional imports */
+/* line 11, ../scss/_base.scss */
+body {
+  margin: 0;
+}
+
+/* Styling */
+/* line 5, ../scss/thanks.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 9, ../scss/thanks.scss */
+html, body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  color: #42161a;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* line 17, ../scss/thanks.scss */
+.container {
+  *position: relative;
+  *zoom: 1;
+  background-image: url("../img/ricepaper2.png");
+  height: 100%;
+  text-align: center;
+}
+/* line 46, ../../../../../.rvm/gems/ruby-1.9.3-p484/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.container:before, .container:after {
+  content: "";
+  display: table;
+}
+/* line 50, ../../../../../.rvm/gems/ruby-1.9.3-p484/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+.container:after {
+  clear: both;
+}
+/* line 23, ../scss/thanks.scss */
+.container .content {
+  float: left;
+  width: 71.42857%;
+  margin-left: 14.28571%;
+  margin-right: -85.71429%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.3);
+  box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.3);
+  background-color: rgba(233, 78, 119, 0.5);
+}
+/* line 33, ../scss/thanks.scss */
+.container h1 {
+  text-shadow: 0.02em 0.02em 0 rgba(255, 192, 203, 0.5);
+  font-family: 'Londrina Sketch', Helvetica, sans-serif;
+  font-size: 6em;
+}
+/* line 39, ../scss/thanks.scss */
+.container p {
+  clear: left;
+  float: left;
+  width: 71.42857%;
+  margin-left: 14.28571%;
+  margin-right: -85.71429%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  text-shadow: 0.03em 0.03em 0 rgba(255, 192, 203, 0.5);
+  font-family: 'Architects Daughter', Helvetica, sans-serif;
+  font-size: 2em;
+}
+/* line 45, ../scss/thanks.scss */
+.container p:last-child {
+  clear: left;
+  font-size: 3em;
+}

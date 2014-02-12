@@ -1,0 +1,17 @@
+// Font Imports
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(http://fonts.googleapis.com/css?family=Londrina+Sketch);
+
+// Compass Imports
+@import "compass/css3";
+@import "compass/css3/user-interface";
+@import "zen";
+
+// Resets
+body {
+	margin: 0;
+}
+
+// Zen-Grids Variables
+$zen-column-count: 7;
+$zen-gutter-width: 20px;
