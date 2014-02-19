@@ -58,23 +58,24 @@ html, body {
   _display: inline;
   _overflow: hidden;
   _overflow-y: visible;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
   -webkit-box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.3);
   box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.3);
   background-color: rgba(233, 78, 119, 0.5);
+  margin-top: 20px;
 }
-/* line 33, ../scss/thanks.scss */
+/* line 35, ../scss/thanks.scss */
 .container h1 {
-  text-shadow: 0.02em 0.02em 0 rgba(255, 192, 203, 0.5);
+  text-shadow: 0.02em 0.02em 0 rgba(255, 192, 203, 0.5), inset 0.02em 0.02em rgba(0, 0, 0, 0.8);
   font-family: 'Londrina Sketch', Helvetica, sans-serif;
   font-size: 6em;
 }
-/* line 39, ../scss/thanks.scss */
+/* line 41, ../scss/thanks.scss */
 .container p {
   clear: left;
   float: left;
@@ -95,7 +96,7 @@ html, body {
   font-family: 'Architects Daughter', Helvetica, sans-serif;
   font-size: 2em;
 }
-/* line 45, ../scss/thanks.scss */
+/* line 47, ../scss/thanks.scss */
 .container p:last-child {
   clear: left;
   font-size: 3em;
